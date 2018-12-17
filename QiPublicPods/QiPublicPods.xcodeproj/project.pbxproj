@@ -13,6 +13,7 @@
 		F195955021BF6CD10081431F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F195954F21BF6CD10081431F /* Assets.xcassets */; };
 		F195955321BF6CD10081431F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F195955121BF6CD10081431F /* LaunchScreen.storyboard */; };
 		F195955621BF6CD10081431F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F195955521BF6CD10081431F /* main.m */; };
+		F1EC541921C78E7E000C9626 /* QiPublicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC541821C78E7E000C9626 /* QiPublicManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F195955221BF6CD10081431F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F195955421BF6CD10081431F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F195955521BF6CD10081431F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1EC541721C78E7E000C9626 /* QiPublicManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiPublicManager.h; sourceTree = "<group>"; };
+		F1EC541821C78E7E000C9626 /* QiPublicManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiPublicManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		F195954521BF6CD00081431F /* QiPublicPods */ = {
 			isa = PBXGroup;
 			children = (
+				F1EC541621C78E48000C9626 /* Classes */,
 				F195954621BF6CD00081431F /* AppDelegate.h */,
 				F195954721BF6CD00081431F /* AppDelegate.m */,
 				F195954921BF6CD00081431F /* ViewController.h */,
@@ -69,6 +73,15 @@
 				F195955521BF6CD10081431F /* main.m */,
 			);
 			path = QiPublicPods;
+			sourceTree = "<group>";
+		};
+		F1EC541621C78E48000C9626 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC541721C78E7E000C9626 /* QiPublicManager.h */,
+				F1EC541821C78E7E000C9626 /* QiPublicManager.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EC541921C78E7E000C9626 /* QiPublicManager.m in Sources */,
 				F195954B21BF6CD00081431F /* ViewController.m in Sources */,
 				F195955621BF6CD10081431F /* main.m in Sources */,
 				F195954821BF6CD00081431F /* AppDelegate.m in Sources */,
