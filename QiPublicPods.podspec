@@ -92,8 +92,9 @@ The demo we created will help developers to know how to use public pods.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "QiPublicPods/QiPublicPods/Classes/**/*.{h,m}"
+  # s.source_files  = "QiPublicPods", "QiPublicPods/Classes/**/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
