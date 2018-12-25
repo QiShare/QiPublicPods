@@ -40,8 +40,8 @@ The demo we created will help developers to know how to use public pods.
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -54,7 +54,7 @@ The demo we created will help developers to know how to use public pods.
   #  profile URL.
   #
 
-  s.author             = { "liusiqi" => "i-liusiqi1@360.cn" }
+  s.author             = { "liusiqi" => "510137672@qq.com" }
   # Or just: s.author    = "liusiqi"
   # s.authors            = { "liusiqi" => "i-liusiqi1@360.cn" }
   # s.social_media_url   = "http://twitter.com/liusiqi"
@@ -92,7 +92,7 @@ The demo we created will help developers to know how to use public pods.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "QiPublicPods/QiPublicPods/Classes/**/*.{h,m}"
+  s.source_files  = "QiPublicPods/QiPublicPods/Classes/*.{h,m}"
   # s.source_files  = "QiPublicPods", "QiPublicPods/Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
@@ -132,7 +132,7 @@ The demo we created will help developers to know how to use public pods.
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  #  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

@@ -18,11 +18,7 @@
     
     [super viewDidLoad];
     
-    NSString *str1 = @"1";
-    NSLog(@"%p",str1);
-    
-    str1 = @"2";
-    NSLog(@"%p",str1);
+    NSLog(@"111 ");
 }
 
 
